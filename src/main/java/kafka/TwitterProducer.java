@@ -26,13 +26,13 @@ public class TwitterProducer {
     Logger logger = LoggerFactory.getLogger(TwitterProducer.class.getName());
 
     //这里填上你们自己的key和token
-    final String CONSUMER_KEY = "8mV1M3Y4dsIjraarmcQoF2V4s";
-    final String CONSUMER_SECRET = "JIpOmz8PbRXKCYgavKdizrrHsy1Dlu8T7KJqbjiIwmGKSNAQkL";
-    final String TOKEN = "1442970192661913600-wrKGk4ddKDuyn8JqOrwhnbvAee7giW";
-    final String SECRET = "mUCyVm5rzKR7SqEDz3t9xfAc8GwulNaANPZlfG09wxYSj";
+    final String CONSUMER_KEY = " ";
+    final String CONSUMER_SECRET = " ";
+    final String TOKEN = " ";
+    final String SECRET = " ";
 
     final String TOPIC = "twitter";
-    final String BOOTSTRAP_SERVERS = "localhost:9092";
+    final String BOOTSTRAP_SERVERS = " ";
 
     //创建一个Twitter client来帮助我们抓取有效的tweets（这个function不需要记住）
     public Client createTwitterClient(BlockingQueue<String> msgQueue){
